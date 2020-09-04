@@ -18,10 +18,10 @@ public class Main {
         // Game
         System.out.println("Введите число от 1 до 10");
         Scanner scanner = new Scanner(System.in);
-        int number = scanner.nextInt();
+        int nu = scanner.nextInt();
         int compNumber = (int) (Math.random()* 10);
 
-        if (number == compNumber) {
+        if (nu == compNumber) {
             System.out.println("Комп угадал ваше число ");}
         else {System.out.println("Комп не угадал ваше число");}
 
