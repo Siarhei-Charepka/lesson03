@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.util.Game;
+
 import java.util.Scanner;
 
 public class Main {
@@ -15,15 +17,8 @@ public class Main {
         System.out.println(j);
 
 
-        // Game
-        System.out.println("Введите число от 1 до 10");
-        Scanner scanner = new Scanner(System.in);
-        int nu = scanner.nextInt();
-        int compNumber = (int) (Math.random()* 10);
+        Game.toGame();
 
-        if (nu == compNumber) {
-            System.out.println("Комп угадал ваше число ");}
-        else {System.out.println("Комп не угадал ваше число");}
 
     }
 }
