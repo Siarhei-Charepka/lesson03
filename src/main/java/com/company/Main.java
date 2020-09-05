@@ -1,5 +1,6 @@
 package com.company;
 
+import com.company.util.Checker;
 import com.company.util.Game;
 
 import java.util.Scanner;
@@ -15,6 +16,10 @@ public class Main {
         System.out.println(f);
         double j = calculator.division(10, 10);
         System.out.println(j);
+
+        Checker checker = new Checker();
+        checker.isEven(20);
+        checker.isOdd(99);
 
 
         Game.toGame();

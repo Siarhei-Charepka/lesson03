@@ -4,7 +4,7 @@ public class Checker {
 
 
     public boolean isEven(int num) {
-        if (num % 2 == 0)
+        if (num % 2 != 0)
         return false;
         else return true;
     }
