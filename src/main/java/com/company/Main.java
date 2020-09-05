@@ -19,7 +19,7 @@ public class Main {
 
         Checker checker = new Checker();
         checker.isEven(20);
-        checker.isOdd(99);
+        checker.isOdd(100);
 
 
         Game.toGame();

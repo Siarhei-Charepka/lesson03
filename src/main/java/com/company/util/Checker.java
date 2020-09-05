@@ -11,8 +11,8 @@ public class Checker {
 
     public boolean isOdd(int num) {
         if (num % 2 == 0)
-            return true;
-        else return false;
+            return false;
+        else return true;
 
     }
 }
